@@ -1,0 +1,119 @@
+.list-group-item{
+  border:none;
+}
+.firstrow img{
+border-radius: 20px;
+}
+.scroll-container{
+  margin-left: -20px;
+}
+p{
+  font-size: 12px;
+  color:"#a6a6ab";
+}
+.fa-star{
+  color:#ff8f3b;
+}
+.tabContent .nav-item>.nav-link.active {
+  color: #ff5e40;
+  background-color: #ffdbd5;
+  border-radius:25px;
+  padding: 2px 15px;
+  font-size:12px;
+}
+.tabContent .nav-item>.nav-link{
+  font-size:12px;
+  padding: 2px 15px;
+  color:#a4a5a9;
+}
+
+.scndrow .h5 {
+  font-size:14px;
+}
+.scndrow .vf, .scndrow p{
+  font-size:9px;
+}
+ .scndrow span{
+  font-size:12px;
+ }
+ .sidemenu .fa{
+   font-size:12px;
+ }
+ .fa-search,.fa-bell{
+  color:#bebebf;
+ }
+ .sidemenu .nav-link {
+color:#bebebf;
+font-size:12px;
+ }
+ .sidemenu .active {
+  color:#000000;
+  font-size:12px;
+   }
+   .sidemenubg{
+     background-color:#fafafc;
+     border-right:1px solid #ebebeb;
+     /* position:sticky; */
+   }
+   .sidemenu a:hover,.sidemenu a:focus{
+text-decoration: none;
+   }
+   a span:nth-child(2){
+     color:#ff4d2c;
+     vertical-align: sub;
+     font-weight: bold;
+   }
+   a span:nth-child(3){
+    color:#bebebf;
+    vertical-align: sub;
+    font-weight: bold;
+  }
+.sidemenu .active .sidecircle{
+  position: absolute;
+  left: -4px;
+  width: 10px;
+  height: 20px;
+  background-color: #ff4d2c;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+   .navbar-toggler,.navbar-collapse{
+    background-color:#fafafc;
+    border-right:1px solid #ebebeb;
+  }
+  .navbar-collapse {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+      height:700px; 
+  }
+  .navbar-collapse.collapsing {
+      height: auto;
+      -webkit-transition: left 0.3s ease;
+      -o-transition: left 0.3s ease;
+      -moz-transition: left 0.3s ease;
+      transition: left 0.3s ease;
+      left: -100%;
+  }
+  .navbar-collapse.show {
+      left: 0;
+      -webkit-transition: left 0.3s ease-in;
+      -o-transition: left 0.3s ease-in;
+      -moz-transition: left 0.3s ease-in;
+      transition: left 0.3s ease-in;
+  }
+}
+@media (max-width: 320px) {
+  .tabContent .nav-item>.nav-link.active {
+    font-size:9px;
+  }
+  .tabContent .nav-item>.nav-link {
+    font-size:9px;
+  }
+}
